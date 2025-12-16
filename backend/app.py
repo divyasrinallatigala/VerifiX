@@ -13,7 +13,14 @@ def ingest():
         "risk_score": 0.1,
         "flags": [],
         "agent_trace": [{"step":"mock","tool":"mock_agent"}],
-        "extracted": extracted
+        
+        "extracted": {
+                "invoice_number": "INV001",
+                "po_number": "PO123",
+                "vendor": "ABC Traders"
+        }
+
+
     })
 
 if __name__ == "__main__":
