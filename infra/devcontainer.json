@@ -1,0 +1,7 @@
+{
+  "name": "VerifiX Devcontainer",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.11",
+  "workspaceFolder": "/workspace",
+  "forwardPorts": [8080]
+
+}
