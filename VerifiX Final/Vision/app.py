@@ -60,7 +60,7 @@ def health_check():
         'status': 'healthy',
         'service': 'VerifiX Invoice Audit Agent',
         'version': '1.0.0',
-        'gemini_configured': bool(Config.GEMINI_API_KEY and Config.GEMINI_API_KEY != 'AQ.Ab8RN6L6Hzm7lAoihlI27KiDCZEAwSmqCeXxRKhjrx_WPbX8Yg')
+        'gemini_configured': bool(Config.GEMINI_API_KEY and Config.GEMINI_API_KEY != 'Your API key')
     })
 
 @app.route('/api/audit/sample', methods=['POST'])
@@ -200,7 +200,7 @@ if __name__ == '__main__':
     print("=" * 60)
     print("Starting VerifiX Invoice Audit Agent")
     print("=" * 60)
-    print(f"Gemini API Key configured: {bool(Config.GEMINI_API_KEY and Config.GEMINI_API_KEY != 'AQ.Ab8RN6L6Hzm7lAoihlI27KiDCZEAwSmqCeXxRKhjrx_WPbX8Yg')}")
+    print(f"Gemini API Key configured: {bool(Config.GEMINI_API_KEY and Config.GEMINI_API_KEY != 'Your API key')}")
     print(f"Server: http://{Config.HOST}:{Config.PORT}")
     print("=" * 60)
     print("\nAvailable Endpoints:")
