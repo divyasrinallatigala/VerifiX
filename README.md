@@ -90,3 +90,5 @@ PROJECT_ID="your-google-cloud-project-id"
 REGION="us-central1"
 
 BUCKET_NAME="your-invoice-bucket"
+## View the Project Live 
+👉[VerifiX Auditor](https://verifix-agent-service-608335634642.us-central1.run.app)
