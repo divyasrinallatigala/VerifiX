@@ -8,7 +8,7 @@ sys.stdout.reconfigure(line_buffering=True)
 print(f"Diagnostics Start")
 print(f"CWD: {os.getcwd()}")
 
-api_key_env = os.environ.get('AQ.Ab8RN6L6Hzm7lAoihlI27KiDCZEAwSmqCeXxRKhjrx_WPbX8Yg')
+api_key_env = os.environ.get('Your API key')
 print(f"Environment GEMINI_API_KEY before load_dotenv: {api_key_env}")
 
 try:
