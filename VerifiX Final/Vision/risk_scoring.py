@@ -88,7 +88,7 @@ class RiskScoringService:
         """
 
         # Fallback if no API key
-        if not self.api_key or self.api_key == 'AQ.Ab8RN6L6Hzm7lAoihlI27KiDCZEAwSmqCeXxRKhjrx_WPbX8Yg':
+        if not self.api_key or self.api_key == 'Your API key':
             print("WARNING: No valid Gemini API key found. Using fallback decision logic.")
             return self._get_fallback_decision(invoice, po, flags)
 
