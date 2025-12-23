@@ -1,0 +1,22 @@
+.env
+.git
+.vscode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+.tox/
+.analytics
+.DS_Store
+node_modules/
+package-lock.json
+package.json
+verifyx/node_modules/
+# verifyx/ <-- Removed to allow frontend build
