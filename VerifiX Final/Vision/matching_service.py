@@ -47,7 +47,7 @@ class MatchingService:
         Returns:
             Generated PO as ExtractedData
         """
-        if not self.api_key or self.api_key == 'AQ.Ab8RN6L6Hzm7lAoihlI27KiDCZEAwSmqCeXxRKhjrx_WPbX8Yg':
+        if not self.api_key or self.api_key == 'Your API key':
             print("WARNING: No valid Gemini API key found. Using mock PO generation.")
             return self._get_mock_po(invoice)
 
@@ -118,7 +118,7 @@ class MatchingService:
         if name1.lower().strip() == name2.lower().strip():
             return True
             
-        if not self.api_key or self.api_key == 'AQ.Ab8RN6L6Hzm7lAoihlI27KiDCZEAwSmqCeXxRKhjrx_WPbX8Yg':
+        if not self.api_key or self.api_key == 'Your API key':
             return False
 
         prompt = f"""
