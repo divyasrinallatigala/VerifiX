@@ -92,3 +92,11 @@ REGION="us-central1"
 BUCKET_NAME="your-invoice-bucket"
 ## View the Project Live 
 👉[VerifiX Auditor](https://verifix-agent-service-608335634642.us-central1.run.app)
+
+It's an AI Auditor
+
+**Use these Credentials:**
+
+Email: krishna@gmail.com
+
+Password: 123456789
